@@ -6,5 +6,6 @@ class Powertest(unittest.TestCase):
     
     def test_power(self):
         self.assertEqual(power(2,2),4)
+        self.assertEqual(power(2,8),4)
 if __name__ == "main":
     unittest.main()
