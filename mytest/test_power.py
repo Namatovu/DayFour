@@ -8,5 +8,7 @@ class Powertest(unittest.TestCase):
         self.assertEqual(power(2,2),4)
         self.assertEqual(power(2,3),8)
         self.assertEqual(power(2,4),16)
+        self.assertEqual(power(2,5),32)
+        
 if __name__ == "main":
     unittest.main()
